@@ -17,6 +17,7 @@ def main():
             if event.type == pg.QUIT: return
 
         screen.blit(bg_img, [0, 0])
+        
         num = tmr%2
         if num == 0:
             screen.blit(imglist[num], [300, 200])
